@@ -57,5 +57,8 @@ Desde `solicitudes-web`, `npm run build` genera correctamente la versión de pro
 Las capturas solicitadas están en la carpeta `evidencias/`:
 
 - `react-solicitudes-contador.jpg`: vista React con solicitudes y contador de pendientes.
-- `api-pruebas.jpg`: respuestas verificadas de GET, POST, PUT y DELETE.
+- `bruno-get.png`: GET `/api/solicitudes` con `200 OK`.
+- `bruno-post.png`: POST `/api/solicitudes` con `201 Created`.
+- `bruno-put.png`: PUT `/api/solicitudes/1` con `200 OK`.
+- `bruno-delete.png`: DELETE `/api/solicitudes/2` con `204 No Content`.
 - `error-conexion.jpg`: vista React mostrando el error cuando la API no está disponible.
