@@ -51,3 +51,11 @@ Para crear se envía `{ "descripcion": "..." }`. Para actualizar se envía `{ "e
 ## Verificación
 
 Desde `solicitudes-web`, `npm run build` genera correctamente la versión de producción. Para probar el CRUD completo se debe ejecutar también Spring Boot y realizar las peticiones indicadas en la tabla.
+
+## Evidencias de entrega
+
+Las capturas solicitadas están en la carpeta `evidencias/`:
+
+- `react-solicitudes-contador.jpg`: vista React con solicitudes y contador de pendientes.
+- `api-pruebas.jpg`: respuestas verificadas de GET, POST, PUT y DELETE.
+- `error-conexion.jpg`: vista React mostrando el error cuando la API no está disponible.
